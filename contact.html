@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!--Icono pagina-->
+    <link rel="shortcut icon" href="images/logo character - png.svg">
+
+    <!-- Hoja de estilos boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Hoja de estilos css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+
+    <header class="header">
+        
+        <img class="header__logo" src="images/logo.svg"Logo de Ignacio Salagoity."">
+        
+        <h1 class="header__title">Ignacio Salagoity</h1>
+       
+        <p class="header__text">I am a programmer, designer, and digital animator.</p>
+   
+    </header>
+    
+    
+    <main class="main">
+        
+        <!--Section button-->
+        <section class="section1__contact">
+
+            <ul class="section1__contact__list">
+                
+                <li class="section1__contact__item">
+
+                    <a class="section1__contact__link" href="index.html">Homepage</a>
+                
+                </li>
+                
+            </ul>
+
+        </section>
+
+
+        <section class="section5">
+            
+            <h1 class="text-center">
+                Contact
+            </h1>
+
+            <form action="https://formspree.io/f/xnqkwwzv" method="POST">
+                
+                <!--Mail-->
+                <div class="mb-3">
+
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  
+                </div>
+
+                <!--Tipo de consulta-->
+                <div class="mb-3">
+                    
+                    <label class="form-label" for="tipo" >Query type</label>
+                    <select name="tipo" id="tipo" class="form-select" aria-label="Default select example">
+                        
+                        <option selected>Type</option>
+                        <option value="Help">Help</option>
+                        <option value="Work with me">Work with us</option>
+                        <option value="Feedback">Feedback</option>
+                    
+                    </select>
+
+                </div>
+
+                <!--Mensaje-->
+                <div class="mb-3">
+                    
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                
+                </div>
+                
+                <!--Boton de enviar-->
+                <button type="submit" class="btn btn-primary section5__button">Submit</button>
+
+            </form>
+
+
+        </section>
+    
+    </main>
+
+    
+
+    <footer class="footer">
+        
+        <img class="footer__logo" src="images/logo.svg" alt="Logo de Ignacio Salagoity."">
+    
+    </footer>
+
+
+
+    <!-- Hoja de javascript - boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
