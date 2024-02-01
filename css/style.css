@@ -1,18 +1,17 @@
-
 /* Selector Universal */
 * {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 
 /* Selector Etiqueta */
 body {
-    
-    background-color: #915204;
+
+    background-color: black;
     /*background-color: #DE7D07;*/
     /*background-color: black;*/
     color: aliceblue;
@@ -28,23 +27,28 @@ a {
 }
 
 
-img, video, iframe {
-    
+img,
+video,
+iframe {
+
     max-width: 100%;
     height: auto;
 
 }
 
 
-ul, ol {
+ul,
+ol {
 
     padding: 0;
     margin: 0;
-    
+
 }
 
 
-.header, main, footer {
+.header,
+main,
+footer {
 
     max-width: 600px;
     margin: 0 auto;
@@ -76,12 +80,12 @@ ul, ol {
     height: 200px;
     border-radius: 1rem;
     margin-bottom: 1rem;
-    
+
 }
 
 
 .header__title {
-    
+
     text-align: center;
     font-size: 30px;
     font-weight: 700;
@@ -175,7 +179,7 @@ ul, ol {
     flex-direction: row;
     justify-content: center;
     gap: 1.5rem;
-    
+
 }
 
 .section3__link {
@@ -229,16 +233,19 @@ ul, ol {
 }
 
 .section5__button {
-    
-    background-color: #76A4F1;;
-    border-color: #76A4F1;;
+
+    background-color: #76A4F1;
+    ;
+    border-color: #76A4F1;
+    ;
 
 }
 
 .section5__button:hover {
-    
+
     background-color: black;
-    border-color: #76A4F1;;
+    border-color: #76A4F1;
+    ;
 
 }
 
